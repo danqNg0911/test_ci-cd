@@ -1,3 +1,4 @@
+package com.example.cicd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +11,7 @@ public class CicdApplication {
 
 	@RequestMapping("/")
 	public String home() {
-    	return "Hello Docker World";
+    	return "Hello Docker World - test sync";
   	}
 
 	public static void main(String[] args) {
