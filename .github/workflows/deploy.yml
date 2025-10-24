@@ -26,6 +26,6 @@ jobs:
         with:
           context: ./app
           push: true
-          tags: dangnguyen091105/springboot-app:${{ github.sha }}
+          tags: dangnguyen091105/springboot-app:latest
 
       
